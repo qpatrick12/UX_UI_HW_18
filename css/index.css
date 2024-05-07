@@ -1,0 +1,182 @@
+body {
+    background-color: #F1F1F1;
+}
+
+header {
+    font-family: "Red Hat Mono";
+    padding: 0% 2%;
+    font-size: 20px;
+    font-weight: 400;
+    word-wrap: break-word;
+    color: #343434;
+    display: flex;
+    justify-content: space-between;
+    height: 73px;
+}
+
+/*this is the first section 'ABOUT'*/
+
+.about {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.section-title {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding-top: 34px;
+    padding-bottom: 68px;
+}
+
+h2 {
+    font-family: "Red Hat Mono";
+    font-weight: 400;
+    font-size: 30px;
+    color: #565656;
+    text-align: center;
+}
+
+#textBackground {
+    width: 97px;
+    height: 23px;
+    top: 143px;
+    background-color: #EE7979;
+    z-index: -1;
+    position: absolute;
+}
+
+.bodyText {
+    font-family:"Red Hat Mono";
+    font-size: 20px;
+    font-weight: 400;
+    color: #515151;
+    text-align:justify;
+    padding: 0;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 830px;
+    text-indent: 50px;
+}
+
+hr {
+    width: 880px;
+    border: none;
+    height: 2px;
+    background: white;
+    margin-bottom: 116px;
+}
+
+/* this is the second second section 'My Skills'*/
+
+.mySkills {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-title2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 119px;
+}
+
+#textBackground2 {
+    width: 171px;
+    height: 23px;
+    top: 980px;
+    background-color: #EE7979;
+    z-index: -1;
+    position: absolute;
+}
+
+.flex1 {
+    display: flex;
+    flex-direction: row;
+    height: 214px;
+    margin-bottom: 113px;
+}
+
+.leftbox {
+    margin-left: auto;
+    padding-left: 150px;
+}
+
+h4 {
+    font-family:"Red Hat Mono";
+    font-weight: 400;
+    font-size: 36px;
+    color: #565656;
+    width: 281px;
+    margin: 0px 0px 0px 12px;
+    padding: 0px 106px 0px 10px;
+}
+
+.rightbox {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    padding-right: 150px;
+}
+
+.bodyText2 {
+    font-family: "Red Hat Mono";
+    font-weight: 400;
+    font-size: 14px;
+    color: #515151;
+}
+
+button {
+    font-family: "Red Hat Mono";
+    font-weight: 400;
+    font-size: 23px;
+    width: 111px;
+    height: 34px;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.flex2 {
+    display: flex;
+    flex-direction: row;
+    height: 214px;
+    margin-bottom: 113px;
+}
+
+footer {
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+
+.subheadings h3 {
+    font-family: "Red Hat Mono";
+    font-weight: 400;
+    padding: 0 51px;
+    color: #565656;
+    display: inline-block
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 66px 0;
+
+}
+
+.social-media-icons svg {
+    width: 24px;
+    height: 24px;
+    margin: 0 51px;
+}
